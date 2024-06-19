@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+         
+         body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNDAMENTOS DE PROGRAMACIÓN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <h1>FUNDAMENTOS DE PROGRAMACIÓN</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                
+                <th>Problema</th>
+                <th>Algoritmo</th>
+                <th>Diagrama de flujo</th>
+                <th>Ejecución</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td>1.	CALCULAR EL PORCENTAJE DE NIÑOS Y NIÑAS EN UN AULA</td>
+                <td>Algoritmo porcentaje_niños
+   <p> Definir niños, niñas, pniños, pniñas Como Real</p>
+    
+    Escribir "Ingrese el número de niños"
+    Leer niños
+   <p> Escribir "Ingrese el número de niñas"</p>
+    Leer niñas
+    
+    <p>pniños <- niños * 100 / (niños + niñas)
+    pniñas <- 100 - pniños</p>
+    
+    <p>Escribir "Hay un ", pniños, "% de niños"</p>
+    Escribir "Hay un ", pniñas, "% de niñas"
+<p>FinAlgoritmo</p>
+
+
+</td>
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\algoritmo1.jpg" " alt="logo" 
+height="400" width="300" </td> 
+
+
+</td>
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\ejec1.jpg" " alt="logo" 
+height="250" width="300" </td> 
+
+
+
+            </tr>
+            <tr>
+               
+                <td>2.	CALCULAR EL MONTO A PAGAR EN UNA CABINA DE INTERNET SI EL COSTO POR HORA ES DE S/.1, Y POR CADA 5 HORAS TE DAN UNA HORA DE PROMOCIÓN GRATIS, SABIENDO QUE LA PERMANENCIA EN LA CABINA FUE DE 12 HORAS.</td>
+
+                <td>Algoritmo CalcularMontoCabinaInternet
+	<p>Definir ph, h, mon, hg, th Como Real;</p>
+	ph<- 1.5;
+	<p>escribir "ingresar cantidad de horas:";</p>
+	leer h;
+	<p>ph <- trunc(h/5)</p>
+	h <- h-hg
+	<p>mon <- h*ph</p>
+	Escribir 'Monto a pagar es: Bs/.', mon
+	<p>Escribir 'Hora gratis:', hg</p>
+FinAlgoritmo
+</td>
+
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\algor2.jpg" " alt="logo" 
+height="400" width="300" </td> 
+
+</td>
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\ej2.jpg" " alt="logo" 
+height="250" width="300" </td> 
+
+            </tr>
+      
+<tr>
+
+
+                <td>3. CONVERTIR KILOS A LIBRAS</td>
+
+                <td>Algoritmo ConvertirKilosALibras
+	
+  <p>  Definir kilos, libras Como Real</p>
+	
+    Escribir "Ingrese la cantidad de kilogramos a convertir:"
+   <p> Leer kilos</p>
+	
+    libras <- kilos * 2.20462
+	
+   <p> Escribir kilos, "kilogramos son equivalentes a", libras, "libras."</p>
+	
+FinAlgoritmo
+
+
+</td>
+
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\alg3.jpg" " alt="logo" 
+height="400" width="300" </td> 
+
+</td>
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\ejec3.jpg" " alt="logo" 
+height="250" width="300" </td> 
+
+            </tr>
+
+
+<tr>
+
+
+                <td>
+4. DADOS LOS CATETOS DE UN TRIÁNGULO RECTÁNGULO, CALCULAR SU HIPOTENUSA.
+</td>
+
+                <td>Algoritmo CalcularPerimetroYAreaRectangulo
+	<p>Definir base, altura, perimetro, area Como Real</p>
+	Escribir 'Ingrese la base del rectángulo:'
+	<p>Leer base</p>
+	Escribir 'Ingrese la altura del rectángulo:'
+	<p>Leer altura</p>
+	perimetro <- 2*(base+altura)
+	<p>area <- base*altura </p>
+	Escribir 'El perímetro del rectángulo es: ', perimetro
+	<p>Escribir 'El área del rectángulo es: ', area</p>
+FinAlgoritmo
+
+
+
+</td>
+
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\alg4.jpg" " alt="logo" 
+height="400" width="300" </td> 
+
+</td>
+<td> <img src="C:\Users\ACER\Desktop\trabajo fundamentos\ejec4.jpg" " alt="logo" 
+height="250" width="300" </td> 
+
+            </tr>
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+    <footer>
+        <p>Jeremy Camila Apaza Segales</p>
+        <p>camila21apaza@gmail.com</p>
+       
+    </footer>
+</body>
+</html>
